@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/style.css" defer>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" defer />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Projeto StarBucks - DevClub</title>
-</head>
-<body>
-    <img src="./images/LOGO.png" alt="logo" class="logo">
+  </head>
+  <body>
+    <img src="./images/LOGO.png" alt="logo" class="logo" />
     <div class="conteudo">
-        <div class="caixa-texto">
-            <h2>It's not just Coffe <br>It's <span>Starbucks</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos reiciendis iusto voluptatum, sequi provident tempore officia impedit asperiores adipisci nisi eum beatae? Nemo praesentium nisi officiis incidunt a laudantium? Totam.</p>
-            <a href="https://igorlazzaretti.com" target="_blank">
-                <button> Meu Portifólio</button></a>
-        </div>
+      <div class="caixa-texto">
+        <h2>It's not just Coffe <br />It's <span>Starbucks</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+          reiciendis iusto voluptatum, sequi provident tempore officia impedit
+          asperiores adipisci nisi eum beatae? Nemo praesentium nisi officiis
+          incidunt a laudantium? Totam.
+        </p>
+        <a href="https://igorlazzaretti.com" target="_blank">
+          <button>Meu Portifólio</button></a
+        >
+      </div>
 
-        <div class="caixa-imagem">
-            <img src="./images/Starbucks-Coffee-PNG-Transparent.png" alt="copo starbucks" class="starbucks">
-        </div>
+      <div class="caixa-imagem">
+        <img
+          src="./images/Starbucks-Coffee-PNG-Transparent.png"
+          alt="copo starbucks"
+          class="starbucks"
+        />
+      </div>
     </div>
     <div class="menu">
-        <img src="./images/thumb (1).png" class="thumb1">
-        <img src="./images/thumb (2).png" class="thumb2">
-        <img src="./images/thumb (3).png" class="thumb3">
+      <img
+        src="./images/thumb (1).png"
+        class="thumb1"
+        onclick="trocaImagem('#017143')"
+      />
+      <img
+        src="./images/thumb (2).png"
+        class="thumb2"
+        onclick="trocaImagem('#DDA0DD')"
+      />
+      <img
+        src="./images/thumb (3).png"
+        class="thumb3"
+        onclick="trocaImagem('#FF69B4')"
+      />
     </div>
     <div class="circulo"></div>
 
-</body>
+    <script src="./assets/javascript/script.js"></script>
+  </body>
 </html>
