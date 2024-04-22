@@ -1,195 +1,187 @@
 * {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .conteudo {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px;
 }
 
 .caixa-texto {
-    width: 600px;
+  width: 600px;
 }
 
 .caixa-imagem {
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 250px;
-    
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 250px;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
-    color: #333;
-    font-size: 60px;
-    font-weight: 500;
+  color: #333;
+  font-size: 60px;
+  font-weight: 500;
 }
 
 span {
-    color: #017143;
-    font-size: 70px;
-    font-weight: 900;
+  color: #017143;
+  font-size: 70px;
+  font-weight: 900;
 }
 
 p {
-    font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 button {
-    background: #017143;
-    color: white;
-    border-radius: 40px;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    margin-top: 20px;
+  background: #017143;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .starbucks {
-    width: 340px;
-    z-index: 2;
+  width: 340px;
+  z-index: 2;
+  transition:ease;
 }
 
 .thumb1 {
-    width: 100px;
-    cursor: pointer;
-    transition: 0.8s;
-    margin: 10px;
+  width: 100px;
+  cursor: pointer;
+  transition: 0.8s;
+  margin: 10px;
 }
 
 .thumb2 {
-    width: 115px;
-    cursor: pointer;
-    transition: 0.8s;
-    margin: 10px;
+  width: 115px;
+  cursor: pointer;
+  transition: 0.8s;
+  margin: 10px;
 }
 
 .thumb3 {
-    width: 95px;
-    cursor: pointer;
-    transition: 0.8s;
-    margin: 10px;
+  width: 95px;
+  cursor: pointer;
+  transition: 0.8s;
+  margin: 10px;
 }
 
 .logo {
-    height: 80px;
+  height: 80px;
 }
 
 .thumb1:hover {
-    transform: translateY(-25px);
-
+  transform: translateY(-25px);
 }
 
 .thumb2:hover {
-    transform: translateY(-25px);
+  transform: translateY(-25px);
 }
 
 .thumb3:hover {
-    transform: translateY(-25px);
+  transform: translateY(-25px);
 }
 
-.circulo{
+.circulo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #017143;
+  clip-path: circle(600px at right 800px);
+  z-index: -1;
+}
+
+@media (max-width: 1000px) {
+  body {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .caixa-texto {
+    width: 80vw;
+    max-width: 400px;
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  .caixa-imagem {
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+  }
+
+  .circulo {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
+    width: 120vw;
+    height: 110vh;
+    top: 100px;
     left: 0;
     background: #017143;
     clip-path: circle(600px at right 800px);
     z-index: -1;
-}
- 
-@media (max-width: 1000px) {
-
-    body {
-        padding-top: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .caixa-texto {
-        width: 80vw;
-        max-width: 400px;
-    }
-
-    .conteudo{
-        display: flex;
-        flex-direction: column;
-        width: 80vw;
-           
-    }
-
-    .caixa-imagem {
-        width: 400px;
-        display: flex;
-        justify-content: flex-end;
-        margin-top: 0px;
-        
-    }
-
-    .menu {
-        display: flex;
-        justify-content: center;
-        margin-top: 40vh;
-    }
-
-    .circulo{
-        position: absolute;
-        width: 120vw;
-        height: 110vh;
-        top: 100px;
-        left: 0;
-        background: #017143;
-        clip-path: circle(600px at right 800px);
-        z-index: -1;
-    }
-
+  }
 }
 
 @media (max-width: 700px) {
+  .conteudo {
+    height: 88vh;
+  }
+  .caixa-texto {
+    width: 80vw;
+    max-width: 400px;
+  }
 
-    .conteudo{
-        height: 88vh;
-    }
-    .caixa-texto {
-        width: 80vw;
-        max-width: 400px;
-    }
+  .circulo {
+    position: absolute;
+    width: 140vw;
+    height: 100vh;
+    top: 150px;
+    left: 0;
+    background: #017143;
+    clip-path: circle(600px at right 900px);
+    z-index: -1;
+  }
 
-    .circulo{
-        position: absolute;
-        width: 140vw;
-        height: 100vh;
-        top: 150px;
-        left: 0;
-        background: #017143;
-        clip-path: circle(600px at right 900px);
-        z-index: -1;
-    }
-
-    .menu {
-        display: flex;
-        justify-content: center;
-        margin-top: 30vh;
-    }
+  .menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+  }
 }
-
