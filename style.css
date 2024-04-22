@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 74vh;
 }
 
 .caixa-texto {
@@ -116,4 +117,78 @@ button {
     background: #017143;
     clip-path: circle(600px at right 800px);
     z-index: -1;
+}
+ 
+@media (max-width: 820px) {
+
+    body {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .caixa-texto {
+        width: 80vw;
+        max-width: 400px;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+           
+    }
+
+    .caixa-imagem {
+        width: 400px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0px;
+        
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+    }
+
+    .circulo{
+        position: absolute;
+        width: 120vw;
+        height: 110vh;
+        top: 100px;
+        left: 0;
+        background: #017143;
+        clip-path: circle(600px at right 800px);
+        z-index: -1;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    .conteudo{
+        height: 88vh;
+    }
+    .caixa-texto {
+        width: 80vw;
+        max-width: 400px;
+    }
+
+    .circulo{
+        position: absolute;
+        width: 140vw;
+        height: 100vh;
+        top: 150px;
+        left: 0;
+        background: #017143;
+        clip-path: circle(600px at right 900px);
+        z-index: -1;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 30vh;
+    }
 }
