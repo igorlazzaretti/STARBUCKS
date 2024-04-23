@@ -55,6 +55,7 @@ p {
 
 button {
   background: #017143;
+  width: 200px;
   color: white;
   border-radius: 40px;
   border: none;
@@ -63,10 +64,16 @@ button {
   margin-top: 20px;
 }
 
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    background-color: #E060B9;
+}
+
 .starbucks {
   width: 340px;
   z-index: 2;
-  transition:ease;
 }
 
 .thumb1 {
