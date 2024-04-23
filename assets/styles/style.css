@@ -129,6 +129,7 @@ button:active{
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    height: 160;
   }
   .caixa-texto {
     width: 80vw;
@@ -147,7 +148,9 @@ button:active{
     justify-content: flex-end;
     margin-top: 0px;
   }
-
+.caixa-imagem img{
+  width: 30vh;
+}
   .menu {
     display: flex;
     justify-content: center;
@@ -156,10 +159,11 @@ button:active{
 
   .circulo {
     position: absolute;
+    display: inline;
     width: 120vw;
-    height: 110vh;
-    top: 100px;
-    left: 0;
+    height: 1600px;
+    top: 200px;
+    left: 100;
     background: #017143;
     clip-path: circle(600px at right 800px);
     z-index: -1;
@@ -179,10 +183,10 @@ button:active{
     position: absolute;
     width: 140vw;
     height: 100vh;
-    top: 150px;
+    top: 350px;
     left: 0;
     background: #017143;
-    clip-path: circle(600px at right 900px);
+    clip-path: circle(600px at rigth 900px);
     z-index: -1;
   }
 
@@ -190,5 +194,20 @@ button:active{
     display: flex;
     justify-content: center;
     margin-top: 30vh;
+    margin-bottom: 60px;
   }
+}
+
+@media (max-width: 700px) {
+.circulo{
+  
+}
+.caixa-imagem img{
+  width: 20vh;
+  margin-top: -40px;
+  margin-left: 100px;
+}
+.menu{
+  margin-top: 20vh;
+}
 }

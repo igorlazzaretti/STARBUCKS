@@ -1,16 +1,19 @@
 ## Halloween Landing Page - DevClub
 
 <div align="center">
-   <img width="810" src="./assets/readme/main-img.png">
+   <img width="810" src="./assets/readme/main-readme.png">
 
 </div>
 
-## Club do Portifólio
+## Evento Starbucks
 
 <div align="center">
-   <img width="310" src="./assets/readme/ClubdoPLogo.png">
+   <img width="310" src="./assets/readme/capa.png">
 </div>
-Em mais um módulo cheio de aprendizado de qualidade, o DevClub nos conecta com o Módulo denominado "Club de Portifólio". Aqui utilizando ferramentas na prática simulando projeto reais para engrandecer nosso portifólio.
+Em mais um módulo cheio de aprendizado de qualidade, o DevClub nos conecta com o Módulo denominado "Evento Starbucks". Ele aconteceu em Novembro de 2022 dentro das lives de Programador em 72 horas. Aqui utilizando ferramentas na prática simulando projeto reais para engrandecer nosso portifólio.
+
+
+- Deploy: <a href="https://github.com/igorlazzaretti/landing-starbucks-devclub"> aqui</a>. 
 
 - Figma: <a href="https://www.figma.com/file/bjFYpO0VU0Y8l2bWALFCvt/Burger-shop?type=design&node-id=0-1&mode=design"> aqui</a>. 
 
@@ -20,6 +23,7 @@ Em mais um módulo cheio de aprendizado de qualidade, o DevClub nos conecta com 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="70" height="65"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="70" height="65"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" title="Javascript" alt="Javascript" width="70" height="65"/>&nbsp;
 
 </div>
 
@@ -35,19 +39,8 @@ Sem contar com as aulas liberadas constantemente como potencializador do seu apr
 
 <img  width="210" src="./assets/readme/devclubico.png"> </div>
 
-## Sobre o Professor
 
-Com mais de 3 anos de experiência em desenvolvimento de software. Minha experiência reside no desenvolvimento de sistemas ponta a ponta, apoiado por um histórico comprovado de entrega de projetos impactantes. Além disso, me dedico a retribuir à comunidade de tecnologia, compartilhando meu conhecimento e experiência, criando conteúdo e orientando profissionais.
-
-GitHub: https://github.com/Dev-Pedrosv
-
-
-
-<div align="center">
-<img src="./assets/readme/phenrique.png" width="160"><a href="https://www.linkedin.com/in/pedroh-dev/" target="_blank"> <p> Pedro Henrique da Silva </p> </a>
-</div>
-
-## Sobre o Idealizador do Curso
+## Sobre o Professor e Idealizador do Curso
 
 Sou ex-eletricista do Metrô de São Paulo e fiz a minha transição de carreira graças a programação. Comecei no mercado aos “trancos e barrancos”, estudando no meu tempo livre que tinha nos feriados e fins de semana para me tornar programador.
 
