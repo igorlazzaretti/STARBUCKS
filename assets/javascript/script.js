@@ -20,7 +20,7 @@ lightPinkCup.addEventListener('click', () => {
 })
 
 pinkCup.addEventListener('click', () => {
-  bigCupImage.src = './images/big-three.png'
+  bigCupImage.src = "../../images/big-three.png"
   bgBigCup.style.background = '#E060B9'
   bgBigCup.style.transition = '.7s'
   spanTitle.style.color = '#E060B9'
