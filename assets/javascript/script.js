@@ -13,14 +13,14 @@ greenCup.addEventListener('click', () => {
 })
 
 lightPinkCup.addEventListener('click', () => {
-  bigCupImage.src = '/images/big-two.png'
+  bigCupImage.src = './images/big-two.png'
   bgBigCup.style.background = '#F2CFD7'
   bgBigCup.style.transition = '.7s'
   spanTitle.style.color = '#F2CFD7'
 })
 
 pinkCup.addEventListener('click', () => {
-  bigCupImage.src = "../../images/big-three.png"
+  bigCupImage.src = "./images/big-three.png"
   bgBigCup.style.background = '#E060B9'
   bgBigCup.style.transition = '.7s'
   spanTitle.style.color = '#E060B9'
