@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 700px;
+  height: 600px;
 }
 
 .caixa-texto {
@@ -27,7 +27,7 @@ body {
   width: 600px;
   display: flex;
   justify-content: flex-end;
-  margin-top: 250px;
+  margin-top: 00px;
 }
 
 .menu {
